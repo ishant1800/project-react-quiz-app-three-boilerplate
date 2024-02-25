@@ -1,0 +1,115 @@
+body {
+    background-color: #463790;
+    color: black;
+}
+
+.resultComponent, .homeComponent, .quizComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home Component */
+#QuizAPPheading {
+    color: white;
+}
+
+#playbutton {
+    color: white;
+    background-color: #0ab306;
+    padding: 10px 80px;
+    border-radius: 60px;
+    border-color: grey black black grey;
+}
+
+/* Quiz Component */
+#container {
+    background-color: white;
+    padding: 10px;
+    width: 1000px;
+    height: 600px;
+    border-left: 5px #8686f3 solid;
+}
+
+#questionNum {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 70px;
+}
+
+.options {
+    background-color: #1ea1f1;
+    color: white;
+    border-radius: 60px;
+    padding: 20px 20px;
+}
+
+.actions {
+    border-radius: 0;
+    margin: 0px 20px;
+}
+
+#previous {
+    background-color: #3e7eaa;
+}
+
+#next {
+    background-color: #008001;
+}
+
+#quit {
+    background-color: #ff0000;
+}
+
+#finish {
+    background-color: rgb(122, 122, 122);
+}
+
+/* ResultComponent */
+#ResultComponentHeading {
+    color: green;
+}
+
+#result-container {
+    background-color: white;
+    padding: 40px;
+    border-left: 5px solid #9090fa;
+    width: 660px;
+}
+
+#scorestatement {
+    color: rgb(0, 0, 255);
+}
+
+.resultStatements {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#playagain {
+    background-color: white;
+    color: rgb(12, 12, 241);
+    padding: 5px;
+    border-radius: 0px;
+    border-width: 5px;
+    border-color: #8f8fdb #4b4b82 #474788 #8d8ddf;
+    margin: 20px 50px;
+}
+
+#backtohome {
+    border: 5px solid green;
+    background-color: white;
+    color: green;
+    padding: 5px;
+    border-radius: 0px;
+    border-width: 4px;
+    border-color: #008001 #153e15 #153e15 #008001;
+}
